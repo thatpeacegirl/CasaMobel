@@ -1,0 +1,217 @@
+html {
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 2.1rem;
+    line-height: 1.41;
+    background-color: #fff;
+    color: #333;
+    font-family: sans-serif;
+}
+
+/*Logo*/
+.logo a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #C46D5E;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+
+.logo span {
+    font-size: 55px;
+}
+
+/*Navigation*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    flex-wrap: wrap;
+    height: 75px;
+    background-color: white;
+    width: 100%;
+}
+
+.top-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+li a {
+    text-decoration: none;
+    font-size: 0.7em;
+    color: #333;
+    /* font-family: sans-serif; */
+    padding: 0 3em;
+    text-transform: uppercase;
+}
+
+li a:hover {
+    color: #DAA588;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    color: #C46C5E;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    margin-left: 25px;
+
+}
+
+/*Slideshow*/
+.mySlides {
+    display: none;
+}
+
+.mySlides.fade img {
+    vertical-align: middle;
+    height: 700px;
+    width: 100%;
+    margin-top: 80px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #DAA588;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #C46D5E;
+}
+
+/* Fading animation */
+/* .fade {
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+} */
+
+.about-us {
+    margin: 60px auto;
+    max-width: 1000px;
+}
+
+h2 {
+    color: #C46D5E;
+    font-size: 1.7em;
+    font-family: serif;
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.product-info {
+    margin: 40px 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E1B79F;
+    height: 700px;
+    padding: 0 50px;
+}
+
+.product-info.reverse {
+    flex-direction: row-reverse;
+}
+
+.product-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.product-info p {
+    color: black;
+    padding-top: 60px;
+}
+
+
+.product-image img {
+    width: 700px;
+    height: 700px;
+}
+
+.other-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.other-images {
+    align-self: flex-end;
+    max-width: 900px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.other-images>img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+h4 {
+    align-self: center;
+    font-size: 3rem;
+    color: #C46D5E;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #E1B79F;
+    padding: 5px;
+}
