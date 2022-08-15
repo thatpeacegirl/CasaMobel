@@ -201,6 +201,8 @@ h2 {
     height: 250px;
     object-fit: cover;
     border-radius: 50%;
+    border-color: #E1B79F;
+    border-style: solid;
 }
 
 h4 {
@@ -213,5 +215,7 @@ footer {
     margin-top: 40px;
     text-align: center;
     background-color: #E1B79F;
-    padding: 5px;
+    padding: 15px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
 }
