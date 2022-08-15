@@ -18,3 +18,7 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 4000);
 }
+
+document.querySelector(".js-alert").addEventListener("click", () => {
+  alert("Thanks for choosing CasaMöbel! Check out our catalog for more options!")
+})
